@@ -43,6 +43,6 @@ app.get('/test/:fname/:lname', function(request, response) {
 
 //Post
 app.post('/', function(request,response) {
-    response.send(request.body)
-    console.log(request.body)
+    response.send("This is a post test")
+    console.log("This is a post test")
 });
